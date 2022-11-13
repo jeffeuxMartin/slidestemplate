@@ -1,3 +1,4 @@
+
 language: node_js
 node_js: "6"
 
@@ -9,6 +10,6 @@ deploy:
   provider: pages
   skip_cleanup: true
   local_dir: docs
-  github_token: $GITHUB_TOKEN
+  github_token: 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
   on:
     branch: master
